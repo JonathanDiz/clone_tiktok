@@ -11,5 +11,6 @@ main {
   border-radius: 3px;
   max-width: 375px;
   width: 100vw;
+  display: block;
 }
 
