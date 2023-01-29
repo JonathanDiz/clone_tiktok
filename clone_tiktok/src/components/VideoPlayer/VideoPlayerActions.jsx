@@ -1,4 +1,4 @@
-import { Heart } from "../Icons/Heart"
+import Heart from "../Icons/Heart"
 import styles from "./styles.module.css"
 
 export default function VideoPlayerActions () {

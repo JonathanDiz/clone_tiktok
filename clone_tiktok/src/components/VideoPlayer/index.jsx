@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import styles from "./styles.module.css";
-import clsx from "clsx";
+import { clsx } from 'clsx';
 import VideoPlayerActions from "./VideoPlayerActions";
 
 export default function VideoPlayer({ src }) {
