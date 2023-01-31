@@ -27,17 +27,34 @@
 
 .actions { 
   position: absolute;
-  bottom: 3rem;
-  left: 5rem;
+  bottom: 200px;
+  left: 50px;
+  z-index: 1;
 }
 
 .action {
-  width: auto;
-  height: auto;
-  margin: 0 auto;
   transform: scale(.1);
+  background: transparent;
+  border: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 15px;
+  text-align: center;
   align-items: center;
 }
+
+.album {
+  animation: rotate 3s infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+

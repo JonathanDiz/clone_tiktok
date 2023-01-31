@@ -85,11 +85,9 @@ const VIDEOS = [
 ];
 
 export default function FeedVideos() {
-  return VIDEOS.map((video) => {
-    return (
-      <div key={video.id} className={styles.item}>
-        <VideoPlayer {...video} />
-      </div>
-    );
-  });
+  return VIDEOS.map((video) => (
+    <div key={video.id} className={styles.item}>
+      <VideoPlayer {...video} />
+    </div>
+  ));
 }
