@@ -4,7 +4,7 @@ import { clsx } from 'clsx';
 import VideoPlayerActions from "./VideoPlayerActions";
 import VideoDescription from "./VideoDescription";
 
-export default function VideoPlayer({ src }) {
+export default function VideoPlayer({ author, albumCover, description, src }) {
   const [playing, setPlaying] = useState(false);
   const video = useRef(null);
 
@@ -32,9 +32,9 @@ export default function VideoPlayer({ src }) {
       <i className={playerClassName} onClick={handlePlay} />
       <VideoPlayerActions />
       <VideoDescription 
-        albumImage={albumImage}
+        albumCover={albumCover}
         author={author}
-        
+        description={description}
       />
     </div>
   );

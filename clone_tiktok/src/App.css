@@ -1,6 +1,6 @@
 .App {
   background: #000;
-  height: 100vh;
+  height: auto;
   display: grid;
   place-content: center;
   overflow: hidden;

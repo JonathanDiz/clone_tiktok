@@ -1,15 +1,16 @@
 import AlbumDisk from "./AlbumDisk"
+import styles from "./styles.module.css"
 
-export default function VideoDescription({ author, description }) {
+export default function VideoDescription({ albumCover ,author, description }) {
   return (
-    <footer>
+    <footer className={styles.description}>
     <div>
     <strong>{author}</strong>
     <p>{description}</p>
     </div>
 
     <div>
-    <AlbumDisk albumImage={albumImage} />
+    <AlbumDisk albumCover={albumCover} />
     </div>
     </footer>
   )

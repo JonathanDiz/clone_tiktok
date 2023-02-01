@@ -1,9 +1,9 @@
 import styles from './styles.module.css'
 
-export default function AlbumDisk ({ albumImage } {
+export default function AlbumDisk ({ albumCover }) {
   return (
     <div className={styles.album}>
-      <img src={albumImage} />
+      <img src={albumCover} />
     </div>
   )
-})
+}
