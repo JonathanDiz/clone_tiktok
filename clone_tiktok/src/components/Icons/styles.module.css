@@ -1,0 +1,12 @@
+.musicIcon{
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url("/assets/music.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 13px 13px;
+  width: 15px;
+  height: 15px;
+}

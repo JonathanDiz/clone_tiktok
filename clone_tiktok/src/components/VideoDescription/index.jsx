@@ -1,6 +1,6 @@
-import AlbumDisk from "./AlbumDisk"
-import styles from "./styles.module.css"
-import SongTicker from "../SongTicker/index"
+import AlbumDisk from "./AlbumDisk.jsx";
+import styles from "./styles.module.css";
+import SongTicker from "../SongTicker/index.jsx";
 
 export default function VideoDescription({ albumCover ,author, description, songTitle }) {
   return (
