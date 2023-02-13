@@ -1,6 +1,6 @@
 .App {
   background: #000;
-  height: auto;
+  height: 100vh;
   display: grid;
   place-content: center;
   overflow: hidden;
@@ -10,8 +10,6 @@ main {
   aspect-ratio: 9/16;
   border-radius: 3px;
   display: block;
-  max-width: 414px;
-  width: auto;
   height: auto;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;

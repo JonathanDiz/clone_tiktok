@@ -1,7 +1,7 @@
 import * as React from "react"
 
 export const Heart = ({fill = 'currentColor'}) => (
-  <svg viewBox="0 0 293 297" xmlns="http://www.w3.org/2000/svg" {...fill}>
+  <svg width='56' height='56' viewBox="0 0 293 297" xmlns="http://www.w3.org/2000/svg" {...fill}>
     <defs>
       <radialGradient
         id="a"

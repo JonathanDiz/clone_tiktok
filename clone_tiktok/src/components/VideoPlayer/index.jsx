@@ -1,6 +1,6 @@
+import { clsx } from 'clsx';
 import { useRef, useState } from "react";
 import styles from "./styles.module.css";
-import { clsx } from 'clsx';
 import VideoPlayerActions from "./VideoPlayerActions";
 import VideoDescription from "./VideoDescription";
 import SongTicker from "../SongTicker/index";
