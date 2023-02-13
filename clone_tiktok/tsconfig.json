@@ -16,6 +16,5 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src", "jest", "jest/mocks"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src", "jest", "jest/mocks"]
 }
