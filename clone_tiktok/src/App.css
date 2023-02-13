@@ -15,3 +15,120 @@ main {
   scroll-snap-type: y mandatory;
 }
 
+/* Cuando la pantalla es mayor a 900px */
+@media only screen and (min-width : 901px) {
+  main {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+  }  
+}
+  
+  /* Cuando la pantalla es menor a 900px  (tablets y teléfonos inteligentes)*/
+  @media only screen and (max-width : 900px) {
+    main {
+      width: 100vw;
+      height: 100vh;
+      box-sizing: border-box;
+    }
+  }
+
+  /* Smartphones (portrait & landscape) 
+#Dispositivo = Mayoría de teléfonos móviles (vertical y horizontal) 
+#Resolución = B/w 320px to 479px */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  main {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+}
+
+/* #Dispositivo = Tablets de baja resolución y teléfonos Móviles (horizontal) 
+#Resolución = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+  main {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+}
+  
+/* Smartphones (landscape) */
+@media only screen and (min-width : 321px) {
+  main {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Smartphones (portrait) */
+@media only screen and (max-width : 320px) {
+  main {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+}
+
+/* iPads (portrait & landscape) */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  main {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+}
+
+/* iPads (landscape) 
+#Dispositivo = Tablets, Ipads (horizontal) 
+#Resolución = B/w 768px to 1024px */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
+and (orientation : landscape) {
+  main {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+  } 
+}
+
+/* iPads (portrait) 
+#Dispositivo = Tablets, Ipads (vertical) 
+#Resolucion = B/w 768px to 1024px */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) 
+and (orientation : portrait) {
+  main {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+}
+
+/* Ordenadores de sobremesa y portátiles */
+@media only screen and (min-width : 1224px) {
+  main {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+  } 
+}
+
+/* Pantallas grandes */
+@media only screen and (min-width : 1824px) {
+  main {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+  } 
+}
+
+/* iPhone 4 */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), 
+only screen and (min-device-pixel-ratio : 1.5) {
+  main {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+  } 
+}
+}

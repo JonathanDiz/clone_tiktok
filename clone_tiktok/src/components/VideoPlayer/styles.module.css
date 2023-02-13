@@ -36,11 +36,14 @@
 
 .action {
   color: #fff;
+  font-weight: 600;
   background: transparent;
   border: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 15px;
+  text-align: center;
   align-items: center;
 }
 
