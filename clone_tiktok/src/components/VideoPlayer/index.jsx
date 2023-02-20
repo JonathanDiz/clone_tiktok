@@ -2,7 +2,7 @@ import { clsx } from 'clsx';
 import { useRef, useState } from "react";
 import styles from "./styles.module.css";
 import VideoPlayerActions from "./VideoPlayerActions";
-import VideoDescription from "./VideoDescription";
+import VideoDescription from "../VideoDescription/index";
 import SongTicker from "../SongTicker/index";
 
 export default function VideoPlayer({ author, albumCover, description, src }) {

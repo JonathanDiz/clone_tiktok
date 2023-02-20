@@ -31,7 +31,8 @@
 .actions { 
   position: absolute;
   bottom: 120px;
-  right: 16px;
+  right: 8px;
+  z-index: 1;
 }
 
 .action {
